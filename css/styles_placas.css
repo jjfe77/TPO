@@ -67,3 +67,13 @@
     }
 }
 
+ 
+
+@media all and (max-width: 599px){
+
+    h3 p ul {
+        font-size: smaller;
+    }
+
+}
+
