@@ -90,6 +90,9 @@
         font-size: 5px;
         font-style: italic;
     }
+    #logo{
+        display: none;
+    }
 
 
 }
