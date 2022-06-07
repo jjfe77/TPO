@@ -249,10 +249,56 @@ footer {
 }
   
 
+@media all and (max-width: 599px){
+
+    .menu-simple a {
+        font-size:smaller;
+        display:block;
+        text-decoration: none;
+        border-radius: 2em;
+        color: hsl(0, 0%, 100%);
+        padding: .6em .5em;
+        
+        /*flex*/
+        flex: auto;
+        flex-wrap: initial;
+        text-align: center;
+    }
+
+    .tarjeta-content {
+        padding: 2px;
+    }
+
+    .tarjeta-content p {
+        padding: 1px;
+        margin: 1px;
+        color: black;
+        font-size: 70%;    
+    }
+
+    .tarjeta-content h2 {
+        margin-top:0;
+        margin-bottom:.5em;
+        font-weight:bold;
+        text-align: center;
+        font-style: italic; 
+        font-size: smaller;  
+    }
+
+    .contenedor-footer p {
+        font-size:smaller;
+        font-style: italic;
+    }
 
 
+    .buttons {
+        min-width: 20px;
+        display:flex;
+        justify-content: space-around;
+    }
 
 
+}
 
 
 
