@@ -65,5 +65,35 @@
         padding: 0;
         height: 250px;
     }
+
+    .texto_footer {
+        font-size:smaller;
+        font-style: italic;
+    }
+
+
+    .buttons {
+        min-width: 20px;
+        display:flex;
+        justify-content: space-around;
+    }
+}
+
+ 
+
+@media all and (max-width: 599px){
+
+    h3, p, ul {
+        font-size: smaller;
+    }
+    .texto_footer {
+        font-size: 5px;
+        font-style: italic;
+    }
+    #logo{
+        display: none;
+    }
+
+
 }
 

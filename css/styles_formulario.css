@@ -110,3 +110,17 @@ button{
     cursor: pointer;
 }
 
+@media all and (max-width: 599px){
+    form{
+        width: 320px;
+        height: 520px;
+        margin: 1em auto 1em auto;
+        padding: 2em;
+        /*background: #fff;*/
+        background: linear-gradient(to right, rgb(225, 236, 232), rgb(173, 241, 215));
+        padding: 15px 0;
+        box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+        border-radius: 10px;    
+    }
+}
+
